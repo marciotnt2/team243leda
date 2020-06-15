@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_barra"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="368dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="5dp"
+            android:autoSizeTextType="uniform"
+            android:paddingTop="20dp"
+            android:paddingBottom="2dp"
+            android:text="@string/lbl_name"
+            android:textColor="#7141a7"
+            app:layout_constraintBottom_toTopOf="@+id/editText9"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            android:autoSizeTextType="uniform"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingRight="10dp"
+            android:text="Alice Santos"
+            android:textColor="#7141a7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/lblUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:autoSizeTextType="uniform"
+            android:text="@string/lbl_user_name"
+            android:textColor="#7141a7"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            android:autoSizeTextType="uniform"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingRight="10dp"
+            android:text="alice.santos"
+            android:textColor="#7141a7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/lblEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="5dp"
+            android:autoSizeTextType="uniform"
+            android:text="@string/lbl_Email"
+            android:textColor="#7141a7"
+            app:layout_constraintBottom_toTopOf="@+id/editText9"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            android:autoSizeTextType="uniform"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingRight="10dp"
+            android:text="alice.santos@gmail.com"
+            android:textColor="#7141a7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/lblNascimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:autoSizeTextType="uniform"
+            android:text="@string/lbl_nascismento"
+            android:textColor="#7141a7"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <EditText
+            android:id="@+id/edtNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            android:autoSizeTextType="uniform"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingRight="10dp"
+            android:text="04/03/1976"
+            android:textColor="#7141a7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/lblSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:autoSizeTextType="uniform"
+            android:text="@string/lbl_senha"
+            android:textColor="#7141a7"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            android:autoSizeTextType="uniform"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingRight="10dp"
+            android:text="*******"
+            android:textColor="#7141a7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="177dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginBottom="16dp"
+        android:text="Caminhoneira Gold"
+        android:textAlignment="center"
+        android:textColor="#7141a7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:text="Alice A."
+        android:textColor="#7141a7"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="118dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="3dp"
+        app:cardCornerRadius="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/alice_carga_pesada" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/btn_config_help"
+        android:layout_width="59dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/btn_emergencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
